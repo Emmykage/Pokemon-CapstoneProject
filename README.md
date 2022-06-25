@@ -44,7 +44,7 @@ Run 'npm run build' to build the code after editing it.
 - LinkedIn: [Menanya Morris](https://www.linkedin.com/in/morris-menanya-a51985104/)
 
 
-### Video Link [zoom](...)
+### Video Link [zoom](https://drive.google.com/file/d/1qD_DoAL9peJVrkFWWwzLIwfuqOfgntJY/view?usp=sharing)
 
 ## 🤝 Contributing
 
