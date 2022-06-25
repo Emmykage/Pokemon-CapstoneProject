@@ -2,16 +2,24 @@
 
 import './style.css';
 import '@fortawesome/fontawesome-free/js/all.js';
+import { getLikeCount } from './modules/involvementApi';
 import pokemonCard from './modules/pokemonCard.js';
+
 import { addPopUp, pokedex } from './modules/comments-popup.js';
 import { addComment } from './modules/add-comment.js';
+import { addlikes, pokedex } from './modules/likeCount.js';
+import count from './modules/counter';
+/* eslint-disable no-await-in-loop */
 
-async function getPokemon() {
+const getPokemon = async () => {
+   count();
+  const likes = await getLikeCount();
   for (let i = 1; i < pokedex; i += 1) {
-    const id = [i];
-    await pokemonCard(id);
+    const id = [i + 1];
+    await pokemonCard(id, likes[i]);
   }
   addPopUp();
+   addlikes();
 }
 
 const form = document.getElementById('form');
@@ -33,5 +41,6 @@ close.forEach((e) => {
     popup.style.display = 'none';
   });
 });
+
 
 getPokemon();

@@ -116,13 +116,21 @@ footer {
   font-weight: bold;
 }
 
-span {
+.heart {
   margin-right: 28px;
+  display: flex;
+}
+
+.likecount {
+  margin-left: 8px;
+  color: #d2def1;
 }
 
 .like {
   color: #003a70;
   cursor: pointer;
+  display: block;
+  font-size: 18px;
 }
 
 .like:hover {
