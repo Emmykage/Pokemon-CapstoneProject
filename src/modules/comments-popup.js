@@ -11,6 +11,7 @@ const createPopUp = (pokemon) => {
   <p>Weight: ${pokemon.weight}</p>`;
   document.getElementById('id').value = pokemon.id;
   getComments(pokemon.id);
+  console.log(pokemon.id)
   document.getElementById('popup-window').style.display = 'block';
 };
 
