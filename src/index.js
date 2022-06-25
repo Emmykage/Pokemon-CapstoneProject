@@ -1,15 +1,18 @@
+/* eslint-disable no-await-in-loop */
+
 import './style.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import pokemonCard from './modules/pokemonCard.js';
-/* eslint-disable no-await-in-loop */
+import { addPopUp } from './modules/comments-popup.js';
 
-const pokedex = 157;
+const pokedex = 10;
 
 async function getPokemon() {
   for (let i = 1; i < pokedex; i += 1) {
     const id = [i];
-    pokemonCard(id);
+    await pokemonCard(id);
   }
+  addPopUp();
 }
 
 getPokemon();
