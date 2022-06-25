@@ -13,10 +13,6 @@ async function addLikeCount(itemID) {
   });
   const addedLike = await response.text();
 
-  console.log(itemID);
-
-  console.log(addedLike);
-
   return addedLike;
 }
 
