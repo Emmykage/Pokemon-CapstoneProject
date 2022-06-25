@@ -14,7 +14,7 @@ async function display(pokemon, like) {
     <img src=${pokemon.sprites.front_default}>
 
    <div class="top"><h3>${pokemon.name}</h3><span id=${pokemon.id} class="heart"> <i  class="like fa-solid fa-heart"></i><span class="likecount ${pokemon.id}" id="span-${pokemon.id}">${like.likes}</span </span> </div>
-    <button> Comment</button>
+   <button id=comm${pokemon.id} class="comments-btn" type="button">Comment</button>   
     
 
     
