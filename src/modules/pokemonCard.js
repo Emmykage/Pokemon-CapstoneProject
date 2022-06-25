@@ -1,4 +1,4 @@
-import display from './display';
+import display from './display.js';
 
 const url = 'https://pokeapi.co/api/v2/pokemon/';
 
@@ -9,6 +9,9 @@ async function pokemonCard(id, like) {
   });
 
   const pokemon = await response.json();
-  display(pokemon, like);
+
+   display(pokemon, like);
+
 }
+
 export default pokemonCard;

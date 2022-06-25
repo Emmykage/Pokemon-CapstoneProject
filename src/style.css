@@ -148,3 +148,89 @@ footer .container {
 footer p {
   color: aliceblue;
 }
+
+.comments-btn {
+  cursor: pointer;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.no-comments {
+  text-align: center;
+}
+
+.popup-window {
+  display: none;
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 4px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #957700;
+  text-align: center;
+}
+
+.pokemon-image {
+  background-color: #fff;
+  width: 100%;
+}
+
+.pokemon-name {
+  font-size: 2.5rem;
+}
+
+.pokemon-comments {
+  background-color: #003a70;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
+
+.add-comment-btn {
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#appname {
+  background-color: #fff;
+  display: block;
+  width: 500px;
+  font-size: 2rem;
+  color: #000;
+}
