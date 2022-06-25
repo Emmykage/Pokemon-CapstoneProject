@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* color: #fff; */
 }
 
 main {
@@ -120,8 +118,6 @@ footer {
 
 .heart {
   margin-right: 28px;
-
-  /* background-color: gray; */
   display: flex;
 }
 
@@ -135,10 +131,6 @@ footer {
   cursor: pointer;
   display: block;
   font-size: 18px;
-}
-
-.fa-heart {
-  /* z-index: -1; */
 }
 
 .like:hover {
