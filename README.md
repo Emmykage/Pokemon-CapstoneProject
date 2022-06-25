@@ -28,6 +28,8 @@ Run 'npm run build' to build the code after editing it.
 
 - [Webpack](https://webpack.js.org/guides/getting-started/)
 
+### Live Demo [PokeMon card](https://emmykage.github.io/Pokemon-CapstoneProject/)
+
 ## 👤 Authors
 
 ### Mike Martínez
@@ -40,6 +42,9 @@ Run 'npm run build' to build the code after editing it.
 - GitHub: [@Emmykage](https://github.com/Emmykage)
 - Twitter: [@emmykage](https://twitter.com/emmykage)
 - LinkedIn: [Menanya Morris](https://www.linkedin.com/in/morris-menanya-a51985104/)
+
+
+### Video Link [zoom](...)
 
 ## 🤝 Contributing
 
