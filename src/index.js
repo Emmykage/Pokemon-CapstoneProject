@@ -2,8 +2,9 @@
 
 import './style.css';
 import '@fortawesome/fontawesome-free/js/all.js';
-import { getLikeCount } from './modules/involvementApi';
 import pokemonCard from './modules/pokemonCard.js';
+import { addPopUp, pokedex } from './modules/comments-popup.js';
+import { addComment } from './modules/add-comment.js';
 
 import { addPopUp, pokedex } from './modules/comments-popup.js';
 import { addComment } from './modules/add-comment.js';
@@ -41,6 +42,5 @@ close.forEach((e) => {
     popup.style.display = 'none';
   });
 });
-
 
 getPokemon();
