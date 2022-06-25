@@ -3,9 +3,7 @@
 import './style.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import pokemonCard from './modules/pokemonCard.js';
-import { addPopUp, pokedex } from './modules/comments-popup.js';
-import { addComment } from './modules/add-comment.js';
-
+import { getLikeCount } from './modules/involvementApi';
 import { addPopUp, pokedex } from './modules/comments-popup.js';
 import { addComment } from './modules/add-comment.js';
 import { addlikes } from './modules/likeCount.js';
