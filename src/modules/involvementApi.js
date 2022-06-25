@@ -20,10 +20,10 @@ async function addLikeCount(itemID) {
   return addedLike;
 }
 
-const  getLikeCount = async() => {
+const getLikeCount = async () => {
   const response = await fetch(`${url}${APPID}/likes`);
   const getLikes = await response.json();
   return getLikes;
-}
+};
 
 export { addLikeCount, getLikeCount };

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { addLikeCount, getLikeCount } from './involvementApi';
 
 export const pokedex = 110;

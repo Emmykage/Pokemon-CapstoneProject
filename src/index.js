@@ -10,7 +10,7 @@ const getPokemon = async () => {
   count();
   const likes = await getLikeCount();
   for (let i = 0; i < pokedex; i += 1) {
-    const id = [i+1];
+    const id = [i + 1];
     await pokemonCard(id, likes[i]);
   }
 
