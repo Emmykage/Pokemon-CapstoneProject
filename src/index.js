@@ -7,9 +7,9 @@ import pokemonCard from './modules/pokemonCard.js';
 
 import { addPopUp, pokedex } from './modules/comments-popup.js';
 import { addComment } from './modules/add-comment.js';
-import { addlikes, pokedex } from './modules/likeCount.js';
+import { addlikes } from './modules/likeCount.js';
 import count from './modules/counter';
-/* eslint-disable no-await-in-loop */
+
 
 const getPokemon = async () => {
    count();

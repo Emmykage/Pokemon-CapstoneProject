@@ -39,6 +39,7 @@ const addPopUp = () => {
   const commentsBtn = document.querySelectorAll('.comments-btn');
   commentsBtn.forEach((e) => {
     e.addEventListener('click', generatePopUp);
+    console.log('click')
   });
 };
 
