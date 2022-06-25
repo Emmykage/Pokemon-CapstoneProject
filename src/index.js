@@ -9,17 +9,16 @@ import { addComment } from './modules/add-comment.js';
 import { addlikes } from './modules/likeCount.js';
 import count from './modules/counter';
 
-
 const getPokemon = async () => {
-   count();
+  count();
   const likes = await getLikeCount();
   for (let i = 1; i < pokedex; i += 1) {
     const id = [i + 1];
     await pokemonCard(id, likes[i]);
   }
   addPopUp();
-   addlikes();
-}
+  addlikes();
+};
 
 const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {

@@ -1,5 +1,4 @@
-import { pokedex } from "./comments-popup";
-
+import { pokedex } from './comments-popup';
 
 const counter = document.querySelector('.counter');
 function count() {

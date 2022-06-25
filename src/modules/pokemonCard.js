@@ -10,8 +10,7 @@ async function pokemonCard(id, like) {
 
   const pokemon = await response.json();
 
-   display(pokemon, like);
-
+  display(pokemon, like);
 }
 
 export default pokemonCard;

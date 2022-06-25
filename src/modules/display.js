@@ -7,7 +7,6 @@ async function display(pokemon, like) {
     };
   }
 
-
   const divCol = document.createElement('div');
   divCol.classList.add('col');
   divCol.innerHTML = `
@@ -22,5 +21,3 @@ async function display(pokemon, like) {
   row.appendChild(divCol);
 }
 export default display;
-
-
