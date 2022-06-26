@@ -1,7 +1,7 @@
 import './style.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import pokemonCard from './modules/pokemonCard.js';
-import { popUp } from './displayPopUp';
+import popUp from './displayPopUp.js';
 /* eslint-disable no-await-in-loop */
 
 const pokedex = 157;

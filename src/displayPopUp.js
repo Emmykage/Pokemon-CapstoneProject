@@ -1,4 +1,4 @@
-function  popUp(){
+function popUp(){
     const commentBtn = document.querySelectorAll('.commBtn');
     commentBtn.forEach(btn =>{       
         btn.addEventListener('click', (e)=>{
@@ -6,11 +6,11 @@ function  popUp(){
                 let id = [i]
                 if(e.target.id === `comm-${id}`){
                     console.log(e.target.class)
-            console.log("hey")
+                    console.log("hey")
                 }
             }
             
         })
     })
 }
-export {popUp}
+export default popUp
