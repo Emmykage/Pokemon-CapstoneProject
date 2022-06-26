@@ -10,7 +10,7 @@ async function pokemonCard(id) {
 
   const pokemon = await response.json();
 
-  console.log(pokemon);
+  // console.log(pokemon);
   display(pokemon);
   // console.log(id + ' ' + pokemon.name);
 }
