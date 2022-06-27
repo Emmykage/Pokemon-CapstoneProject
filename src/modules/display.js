@@ -7,7 +7,7 @@ function display(pokemon) {
     <img src=${pokemon.sprites.front_default}>
     
     <div class="top"><h3>${pokemon.name}</h3><span> <i class="like fa-solid fa-heart"></i> </span> </div>
-    <button class"commBtn ${pokemon.id}" id="comm-${pokemon.id}"> Comment</button>
+    <button class="commBtn ${pokemon.id}" id="comm-${pokemon.id}"> Comment</button>
     <button> Reservation</button>
 
     
