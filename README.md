@@ -28,7 +28,7 @@ Run 'npm run build' to build the code after editing it.
 
 - [Webpack](https://webpack.js.org/guides/getting-started/)
 
-### Live Demo [PokeMon card](https://emmykage.github.io/Pokemon-CapstoneProject/)
+### Live Demo [PokeMon card](https://emmykage.github.io/Pokemon-CapstoneProject/dist)
 
 ## 👤 Authors
 
